@@ -26,12 +26,14 @@ const config = {
     '^@/hooks',
 
     // Internal aliases – UI components and layout building blocks
+    '^@/providers',
+    '@/blocks',
     '^@/components',
 
     // Application-level and global imports
     '^@/app',
-    '^@/styles',
     '^@/assets',
+    '^@/styles',
 
     // Relative imports – same folder
     '^\\./',
