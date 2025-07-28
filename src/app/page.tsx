@@ -8,6 +8,7 @@ export default function Home() {
       <section>
         <h1>Portfolio</h1>
         <p>Hello! My name is Łukasz Bielecki.</p>
+        <p>TEST</p>
       </section>
       <Button>Get in touch</Button>
     </main>

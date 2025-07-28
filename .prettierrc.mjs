@@ -27,7 +27,7 @@ const config = {
 
     // Internal aliases – UI components and layout building blocks
     '^@/providers',
-    '@/blocks',
+    '^@/blocks',
     '^@/components',
 
     // Application-level and global imports
