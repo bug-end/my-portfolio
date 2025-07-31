@@ -9,7 +9,7 @@ const config = {
   printWidth: 120,
   endOfLine: 'lf',
   tabWidth: 2,
-  plugins: ['prettier-plugin-tailwindcss', '@trivago/prettier-plugin-sort-imports'],
+  plugins: ['@trivago/prettier-plugin-sort-imports', 'prettier-plugin-tailwindcss'],
   importOrderSeparation: true,
   importOrderSortSpecifiers: true,
   importOrder: [

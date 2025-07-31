@@ -25,14 +25,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
       <head />
-      <body className="min-h-screen flex flex-col">
+      <body className="flex min-h-screen flex-col">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <header className="border-b">
             <Nav />
           </header>
-          <main className="flex-grow max-w-7xl py-8 px-4 mx-auto w-full">{children}</main>
-          <footer className="border-t text-sm text-muted-foreground">
-            <div className="max-w-7xl mx-auto py-4 px-4">
+          <main className="mx-auto max-w-7xl flex-grow px-4 py-8">{children}</main>
+          <footer className="text-muted-foreground border-t text-sm">
+            <div className="mx-auto max-w-7xl px-4 py-4">
               © {new Date().getFullYear()} Łukasz Bielecki. All rights reserved.
             </div>
           </footer>

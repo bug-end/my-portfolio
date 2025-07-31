@@ -4,7 +4,7 @@ import { ModeToggle } from '@/components/ModeToggle';
 
 export function Nav() {
   return (
-    <nav className="flex items-center justify-between py-4 px-4 max-w-7xl mx-auto">
+    <nav className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4">
       <div className="flex items-center gap-4">
         <Link href="/" className="text-lg font-bold">
           Home
