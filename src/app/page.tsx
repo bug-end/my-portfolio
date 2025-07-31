@@ -1,16 +1,11 @@
-import { ModeToggle } from '@/components/mode-toggle';
 import { Button } from '@/components/shadcn-ui/button';
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="p-24 h-full">
-      <ModeToggle />
-      <section>
-        <h1>Portfolio</h1>
-        <p>Hello! My name is Łukasz Bielecki.</p>
-        <p>TEST12</p>
-      </section>
+    <section>
+      <h1>Portfolio</h1>
+      <p>Hello! My name is Łukasz Bielecki.</p>
       <Button>Get in touch</Button>
-    </main>
+    </section>
   );
 }
