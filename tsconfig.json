@@ -26,7 +26,7 @@
       "@/blocks/*": ["./src/blocks/*"],
       "@/components/*": ["./src/components/*"],
       "@/utils/*": ["./src/utils/*"],
-      "@/lib/*": ["./src/hooks/*"],
+      "@/lib/*": ["./src/lib/*"],
       "@/assets/*": ["./src/assets/*"],
       "@/styles/*": ["./src/styles/*"]
     }
