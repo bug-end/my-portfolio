@@ -3,7 +3,7 @@ import { Button } from '@/components/shadcn-ui/button';
 export default function HomePage() {
   return (
     <section
-      style={{ backgroundImage: 'radial-gradient(100% 100% at 50% 0%, black 70%, #ad46ff)' }}
+      style={{ backgroundImage: 'radial-gradient(100% 100% at 50% 0%, transparent 70%, #ad46ff)' }}
       className="relative flex h-full overflow-hidden"
     >
       <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-15 px-4 py-8">
