@@ -25,12 +25,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={inter.className} suppressHydrationWarning>
-      <body className="flex min-h-screen flex-col">
+      <body className="flex h-screen flex-col">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <header>
             <Nav />
           </header>
-          <main className="mx-auto w-full max-w-7xl flex-grow px-4 py-8">{children}</main>
+          <main className="flex-grow">{children}</main>
           <Footer />
         </ThemeProvider>
       </body>
