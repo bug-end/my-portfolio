@@ -6,14 +6,12 @@ import { Button } from '@/components/shadcn-ui/button';
 export default function HomePage() {
   return (
     <AnimatedBackground>
-      <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-15 px-4 py-8">
+      <div className="mx-auto flex w-full max-w-7xl flex-col items-center gap-4 py-8 pt-30 pb-4">
         <div className="text-center">
           <h1 className="text-4xl font-bold md:text-5xl">
-            <span>Łukasz Bielecki</span>
+            <span>łukasz bielecki</span>
             <br />
-            <span className="bg-gradient-to-r from-purple-700 to-[#4c27f2] bg-clip-text text-7xl font-bold text-transparent transition-colors duration-1500 hover:from-[#4c27f2] hover:to-purple-700 md:text-9xl">
-              frontend dev
-            </span>
+            <span className="text-7xl font-bold text-purple-700 md:text-9xl">frontend.dev</span>
           </h1>
         </div>
         <div className="flex flex-col items-center gap-4">
