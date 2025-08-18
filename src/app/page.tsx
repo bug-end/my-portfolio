@@ -11,7 +11,9 @@ export default function HomePage() {
           <h1 className="text-4xl font-bold md:text-5xl">
             <span>łukasz bielecki</span>
             <br />
-            <span className="text-7xl font-bold text-purple-700 md:text-9xl">frontend.dev</span>
+            <span className="text-7xl font-bold md:text-9xl">
+              frontend<span className="text-purple-700">.</span>dev
+            </span>
           </h1>
         </div>
         <div className="flex flex-col items-center gap-4">
