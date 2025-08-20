@@ -2,13 +2,13 @@ import Link from 'next/link';
 
 export default function ContactPage() {
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 py-8">
+    <section className="mx-auto w-full max-w-7xl pt-20 pb-8">
       <h1 className="mb-6 text-4xl font-bold">Let&apos;s connect</h1>
       <p className="text-xl">
         I&apos;m always looking for new opportunities and collaborations. If you have any questions or want to work
         together, feel free to contact me.
       </p>
-      <div className="mt-4 flex items-center justify-center gap-8">
+      <div className="mt-20 flex items-center justify-center gap-8">
         <Link href="https://github.com/bug-end" target="_blank" className="inline-block">
           <svg
             role="img"
