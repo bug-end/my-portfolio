@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/providers/ThemeProvider';
 
 import { Footer } from '@/components/Footer';
 import { Nav } from '@/components/Nav';
+import { PixelatedBottomGradient } from '@/components/PixelatedBottomGradient';
 
 import '@/styles/globals.css';
 
@@ -21,7 +22,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={space_grotesk.className} suppressHydrationWarning>
-      <body className="flex h-screen flex-col bg-radial-[125%_125%_at_50%_0%,_transparent_60%,_#ad46ff] bg-fixed">
+      <body className="flex h-screen flex-col">
+        <PixelatedBottomGradient />
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <header>
             <Nav />
