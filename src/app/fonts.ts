@@ -7,5 +7,6 @@ export const space_grotesk = Space_Grotesk({
 
 export const rubik_glitch = Rubik_Broken_Fax({
   weight: ['400'],
+  subsets: ['latin-ext'],
   display: 'swap',
 });
