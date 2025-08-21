@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
 
 import { ThemeProvider } from '@/providers/ThemeProvider';
 
@@ -8,10 +7,7 @@ import { Nav } from '@/components/Nav';
 
 import '@/styles/globals.css';
 
-const inter = Inter({
-  subsets: ['latin-ext'],
-  display: 'swap',
-});
+import { space_grotesk } from './fonts';
 
 export const metadata: Metadata = {
   title: 'Łukasz Bielecki Portfolio',
@@ -24,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={inter.className} suppressHydrationWarning>
+    <html lang="en" className={space_grotesk.className} suppressHydrationWarning>
       <body className="flex h-screen flex-col bg-radial-[125%_125%_at_50%_0%,_transparent_60%,_#ad46ff] bg-fixed">
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
           <header>
